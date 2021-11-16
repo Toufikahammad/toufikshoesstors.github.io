@@ -1,0 +1,163 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+body{
+	overflow-x: hidden;
+}
+h1{
+	font-family: 'Dancing Script', cursive;
+}
+.carousel-item img{
+    width: 100%;
+    height: 85vh;
+}
+
+.card-body img{
+	min-width: 50%;
+	max-height: 200px;
+}
+.filter-gallery{
+	padding: 100px;
+
+}
+.portfolio-menu{
+	text-align: center;
+	margin-bottom: 20%;
+}
+.portfolio-menu ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 20px 0px;
+	font-size:20px;
+	font-weight: bold;
+	font-family: sans-serif;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.5%;
+    text-align: center;
+}
+.portfolio-menu ul li:hover{
+	color: white;
+	background-color: #e74c3c;
+	border-radius: 8px;
+
+}
+li.active{
+	color: white;
+	background-color: #e74c3c;
+	border-radius: 8px;
+
+}
+.portfolio-item{
+	width: 100%;
+
+}
+.portfolio-item .item{
+	width: 360px;
+	height: 360px;
+	float: left;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+.portfolio-item .item img{
+   width: 100%;
+   height: 100%;
+   border-radius: 8px;
+
+}
+.portfolio-item .item img:hover{
+	transform: scale(1.2);
+}
+footer{
+	width: 100%;
+	
+	background:#262626;
+	padding: 50px 100px;
+	
+}
+.newsleter{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	border: 1px solid rgba(255,255,255,0.2);
+    color: white;
+
+
+}
+.newsleter >div{
+	flex-basis: 50%;
+}
+.ntext{
+	text-align: right;
+	
+
+}
+.newsleter  h2{
+	font-size: 2em;
+	font-family: sans-serif;
+
+}
+.newsleter  p{
+	font-size: 20px;
+	margin-top: 10px;
+}
+.newsleter  label{
+	position: relative;
+	text-align: left;
+}
+.newsleter input{
+	padding: 20px;
+	width: 70%;
+	border-radius: 8px 0px 0px 8px;
+	border: none;
+	outline: none;
+	font-family: serif;
+}
+.newsleter button{
+	position: absolute;
+	right: 0;
+	padding: 20px;
+	width: 30%;
+	background:#e74c3c;
+	color: white;
+	border: none;
+	outline: none;
+	border-radius: 0 8px 8px 0;
+
+}
+.f-contact{
+	color: white;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 3em;
+	border: 1px solid rgba(255,255,255,0.2);
+}
+.f-contact>div{
+	flex-basis: 20%;
+}
+.f-contact p{
+	line-height: 2em;
+	font-size: 20px;
+	color: grey;
+	cursor: pointer;
+}
+.f-contact p:hover{
+	color: white;
+}
+.f-contact i{
+	background-color: white;
+	color: black;
+	padding: 20px;
+	font-size: 25px;
+	margin: 20px 5px;
+	border-radius: 50%;
+	transition: 0.4s ease;
+}
+.f-contact i:hover{
+	background: transparent;
+	color: white;
+	border: 1px solid white;
+	
+}
